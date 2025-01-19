@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import LoginModal from "./components/LoginModal";
 import EvaluateModal from "./components/EvaluateModal";
 import ReportModal from "./components/ReportModal";
-import { UserProvider } from '@auth0/nextjs-auth0';
+import { UserProvider } from '@auth0/nextjs-auth0/client';
 
 const App = () => {
   const [isLoginOpen, setLoginOpen] = useState(false);
